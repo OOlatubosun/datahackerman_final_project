@@ -1,10 +1,21 @@
+# Datahackerman Final Project
+
+AutoML Datahackerman Final Projectusing AutoGluon Framework
+
+## Introduction
+
 Please use version control and virtual environments in our work.
 Please commit several times as your work progress with meaningful comments and create a requirements file so we can see what you are working with.
 
 Now, as for the challenges, you find the data you need in the "data" folder and should be comprised of 3 files: csv_file.csv, json_file.json, txt_file.txt
 
-The challenges are divided into 4 parts:
+The challenges are divided into 4 parts.
 
+This project work uses `AutoGluon` framework.
+
+## Objective
+
+The challenges are divided into 4 parts:
 __API Access__
 
 This challenge will involve querying an API and extracting information from it. The API in question provides information on Game of Thrones, allowing one to access information on the houses, characters and books.
@@ -56,3 +67,63 @@ The data files attached should be used to create the model.
 What we would like to see from this task is your thoughts and decisions on training and testing a model. This will include, but not limited to, considering aspects such as feature selection & creation, parameter tuning of the model and train / validation / test split. 
 
 This task is a blank canvas to work with. The only caveat is that you must be able to explain the methods and models you are using.
+
+
+## Environment Setup
+
+Create an environment
+```
+
+conda create --name apichallengenv python=3.9 -y
+```
+
+Activate the environment
+```
+
+conda activate apichallengenv
+
+Install packages in the environment
+NB: This for Windows
+
+```
+pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchtext==0.13.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html
+pip install autogluon matplotlib seaborn,scikit-learn request xgboost geopy geocoder folium cufflinks nltk textblob vaderSentiment wordcloud
+conda install jupyter
+```
+
+### Test your instructions as follows:
+
+```bash
+(apichallengenv) C:\Users\User\Documents\workspace_datahackermen\insurance_premium_prediction>python
+Python 3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from autogluon.tabular import TabularDataset, TabularPredictor
+```
+
+If that works, then you have good installation for `autogluon`.
+
+## Project Structure
+
+```
+Final Project
+    |--README.md
+    |--datasets
+    |--Task 1 - API Access.ipynb
+    |--Task 2 - File Manipulation and Formating.ipynb
+    |--Task 3 - Data Exploration.ipynb
+    |--Task 4 - Model Creation.ipynb
+    |--final_data.csv
+    ```
+
+## Data Ingestion
+
+## Exploratory Data Analysis (EDA)
+
+## Features Engineering and processing
+
+## Model Building
+
+## Model Evaluation
+
+## Model Deployment
+
