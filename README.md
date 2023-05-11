@@ -1,6 +1,6 @@
 # Datahackerman Final Project
 
-AutoML Datahackerman Final Projectusing AutoGluon Framework
+AutoML Datahackerman Final Project using AutoGluon Framework
 
 ## Introduction
 
@@ -16,6 +16,7 @@ This project work uses `AutoGluon` framework.
 ## Objective
 
 The challenges are divided into 4 parts:
+
 __API Access__
 
 This challenge will involve querying an API and extracting information from it. The API in question provides information on Game of Thrones, allowing one to access information on the houses, characters and books.
