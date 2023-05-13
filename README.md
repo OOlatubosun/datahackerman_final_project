@@ -45,7 +45,7 @@ NB: This for Windows
 
 ```bash
 pip install torch==1.12.1+cpu torchvision==0.13.1+cpu torchtext==0.13.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html
-pip install autogluon matplotlib seaborn,scikit-learn request xgboost geopy geocoder folium cufflinks nltk textblob vaderSentiment wordcloud jupyter
+pip install autogluon matplotlib seaborn scikit-learn request xgboost geopy geocoder folium cufflinks nltk textblob vaderSentiment wordcloud jupyter
 ```
 
 
