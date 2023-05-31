@@ -1,0 +1,24 @@
+name:project_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - autogluon==0.7.0
+  - torch==1.12.1
+  - torchvision==0.13.1
+  - jupyter==1.0.0
+  - requests==2.28.2
+  - numpy==1.23.5
+  - pandas==1.5.3
+  - scikit-learn==1.2.2
+  - folium==0.14.0
+  - matplotlib==3.7.1
+  - geocoder==1.38.1
+  - geopy==2.3.0
+  - nltk==3.8.1
+  - pip==23.0.1
+  - seaborn==0.12.2
+  - textblob==0.17.1
+  - vaderSentiment==3.3.2
+  - wordcloud==1.9.1.1
+  - xgboost==1.7.5
